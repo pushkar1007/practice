@@ -1,0 +1,43 @@
+{
+  "name": "user_service",
+  "version": "0.1.0",
+  "description": "basic spotify clone",
+  "keywords": [
+    "spotify"
+  ],
+  "homepage": "https://github.com/pushkar1007/practice#readme",
+  "bugs": {
+    "url": "https://github.com/pushkar1007/practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushkar1007/practice.git"
+  },
+  "license": "ISC",
+  "author": "Pushkar Nanwani",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"tsc -W\" \"nodemon dist/index.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/mongoose": "^5.11.96",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1"
+  }
+}
