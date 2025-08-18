@@ -1,9 +1,9 @@
 {
-  "name": "admin_service",
+  "name": "song_service",
   "version": "0.1.0",
-  "description": "basic spotify clone",
+  "description": "This is a basic Spotify clone",
   "keywords": [
-    "spotify"
+    "Spotify"
   ],
   "homepage": "https://github.com/pushkar1007/practice#readme",
   "bugs": {
@@ -28,15 +28,10 @@
     "@types/cors": "^2.8.19",
     "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.3",
-    "@types/multer": "^2.0.0",
     "@types/redis": "^4.0.10",
-    "axios": "^1.11.0",
-    "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
-    "datauri": "^4.1.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "multer": "^2.0.2",
     "redis": "^5.8.1"
   },
   "devDependencies": {
